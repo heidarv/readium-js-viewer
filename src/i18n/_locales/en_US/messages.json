@@ -459,7 +459,7 @@
       },
       "languages": {
         "content": "$1",
-        "example": "en-US,ja,sr,de,zh_CN"
+        "example": "en-US,fa,ja,sr,de,zh_CN"
       }
     }
   }
