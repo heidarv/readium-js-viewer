@@ -344,3 +344,5 @@ For more complex build processes, Grunt / Gulp can be used, but these build syst
 
 Downside: DO NOT invoke `npm init` or `npm install --save` `--save-dev` `--save-optional`,
 as this would overwrite / update the JSON, not the master CSON!
+
+اين برنامه براي فارسي كاستومايز شده است
