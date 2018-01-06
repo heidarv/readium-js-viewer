@@ -115,5 +115,5 @@ before_deploy:
 deploy:
   provider: releases
   api_key: 737fe9bc1cdab5cf8cd3f84322ef830e6ea17544
-  file: Readium_cloud-reader-lite.zip
+  file: dist/Readium_cloud-reader-lite.zip
   skip_cleanup: true
