@@ -108,3 +108,12 @@ addons:
   sauce_connect:
     username: heidarv
     access_key: 55d5ae70-53c2-40a4-b34c-9d521e875ff2
+before_deploy:
+  - git config --local user.name heidarv
+  - git config --local user.email heidarv@gmail.com
+  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+deploy:
+  provider: releases
+  api_key: 737fe9bc1cdab5cf8cd3f84322ef830e6ea17544
+  file: Readium_cloud-reader-lite.zip
+  skip_cleanup: true
