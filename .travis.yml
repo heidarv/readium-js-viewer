@@ -94,6 +94,7 @@ before_deploy:
   - git config --local user.name heidarv
   - git config --local user.email heidarv@gmail.com
   - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+  - dir
 deploy:
   provider: releases
   api_key: 737fe9bc1cdab5cf8cd3f84322ef830e6ea17544
