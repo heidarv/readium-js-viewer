@@ -96,10 +96,11 @@ before_deploy:
   - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
-  api_key: 737fe9bc1cdab5cf8cd3f84322ef830e6ea17544
+  api_key: 
+    secure: 737fe9bc1cdab5cf8cd3f84322ef830e6ea17544
+  file_glob: true
   file: dist/*
   skip_cleanup: true
-  file_glob: true
   overwrite: true
 after_success:
 #- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ ${MODE} = "firefox" ] && npm install surge && echo "epub_content" > ./dist/cloud-reader/.surgeignore && surge --project ./dist/cloud-reader --domain readium.surge.sh'
