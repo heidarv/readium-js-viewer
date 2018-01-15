@@ -69,10 +69,6 @@ script:
 - git status
 - cd ../../../
 #- cat build-output/version.json
-deploy:
-  provider: hackage
-  username: "heidarv"
-  password: "Salamhackage"
 #after_success:
 #- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ ${MODE} = "chromeApp" ] && node build-config/deployCrx.js'
 after_failure: cat ./sauce_connect.log
