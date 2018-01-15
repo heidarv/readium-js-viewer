@@ -69,16 +69,10 @@ script:
 - git status
 - cd ../../../
 #- cat build-output/version.json
-#before_deploy:
-#  - git config --local user.name heidarv
-#  - git config --local user.email heidarv@gmail.com
-#  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-#deploy:
-#  provider: releases
-#  file_glob: true
-#  file: dist/*
-#  skip_cleanup: true
-#  overwrite: true
+deploy:
+  provider: hackage
+  username: "heidarv"
+  password: "Salamhackage"
 #after_success:
 #- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ ${MODE} = "chromeApp" ] && node build-config/deployCrx.js'
 after_failure: cat ./sauce_connect.log
