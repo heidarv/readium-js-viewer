@@ -5,4 +5,5 @@ npm install
 npm update
 npm run build
 npm run dist
+cd dist
 dir
