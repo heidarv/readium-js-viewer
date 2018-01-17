@@ -4,4 +4,5 @@ npm run prepare:all
 npm install
 npm update
 npm run build
+npm run dist
 dir
