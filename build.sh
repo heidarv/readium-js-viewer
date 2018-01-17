@@ -4,3 +4,4 @@ npm run prepare:all
 npm install
 npm update
 npm run build
+dir
