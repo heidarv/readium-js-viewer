@@ -707,7 +707,7 @@ BookmarkData){
         // if (!embedded){
         //     return;
         // }
-        if (hideTimeoutId){
+/*        if (hideTimeoutId){
             window.clearTimeout(hideTimeoutId);
             hideTimeoutId = null;
         }
@@ -719,7 +719,7 @@ BookmarkData){
         }
         else{
             hideTimeoutId = window.setTimeout(hideUI, 8000);
-        }
+        }*/
     }
 
     //TODO: also update "previous/next page" commands status (disabled/enabled), not just button visibility.
