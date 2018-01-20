@@ -144,6 +144,8 @@ direction: rtl;
     
     min-height: 36px;
     background-color: #114e37;
+
+    float: right !important;
 }
 
 .book-title-header{
