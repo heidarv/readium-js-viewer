@@ -5,7 +5,7 @@ define(['./ModuleConfig', 'hgn!readium_js_viewer_html_templates/settings-dialog.
         fontSize: 100,
         fontSelection: 0, //0 is the index of default for our purposes.
         syntheticSpread: "auto",
-        scroll: "auto",
+        scroll: "scroll-continuous",
         columnGap: 60,
         columnMaxWidth: 550,
         columnMinWidth: 400
