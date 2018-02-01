@@ -2,7 +2,7 @@ define(['./ModuleConfig', 'hgn!readium_js_viewer_html_templates/settings-dialog.
 
     // change these values to affec the default state of the application's preferences at first-run.
     var defaultSettings = {
-        fontSize: 100,
+        fontSize: 200,
         fontSelection: 0, //0 is the index of default for our purposes.
         syntheticSpread: "auto",
         scroll: "scroll-continuous",
