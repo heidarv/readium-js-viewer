@@ -1,5 +1,5 @@
 git submodule update --init --recursive
-git checkout BRANCH_NAME && git submodule foreach --recursive "git checkout BRANCH_NAME"
+git checkout master && git submodule foreach --recursive "git checkout master"
 npm run prepare:all
 npm install
 npm update
