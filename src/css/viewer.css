@@ -627,8 +627,8 @@ ul.nav-tabs li:not(.active) button:hover
   }
   #epub-reader-frame
   {
-      border-left: 30px solid transparent;
-      border-right: 30px solid transparent;
+/*       border-left: 30px solid transparent; */
+/*       border-right: 30px solid transparent; */
   }
   .page-switch-overlay-icon
   {
